@@ -67,8 +67,8 @@ if (!$userInfo) {
               <?php if(!$userInfo): ?>
               <div class="login-box auth0-box before">
                 <img src="https://i.cloudup.com/StzWWrY34s.png" />
-                <h3>Auth0 Example</h3>
-                <p>Zero friction identity infrastructure, built for developers</p>
+                <h1>HeRo</h1>
+                <p>The Next Evolution of HR Software</p>
                 <a class="btn btn-primary btn-lg btn-login btn-block" href="login.php">Sign In</a>
               </div>
               <?php else: ?>
@@ -93,12 +93,6 @@ if (!$userInfo) {
                     </li>
                     <li>
                       <a href="<?php echo url_for('../public//Staff/Titles/index.php'); ?>">Titles</a>
-                    </li>
-                    <li>
-                      <a href="<?php echo url_for('../public//Staff/Admins/index.php'); ?>">Admins</a>
-                    </li>
-                    <li>
-                      <a href="<?php echo url_for('../public//Staff/Pages/index.php'); ?>">Pages</a>
                     </li>
                   </ul>
                 </div>
