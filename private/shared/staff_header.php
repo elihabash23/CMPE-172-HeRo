@@ -18,7 +18,7 @@
     </header>
 
     <navigation>
-    <ul>
+      <ul>
         <li><a href="<?php echo url_for('../../index.php'); ?>">Menu</a></li>
         <li><a href="<?php echo url_for('../../logout.php'); ?>">Logout</a></li>
       </ul>
